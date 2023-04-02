@@ -29,11 +29,11 @@
 </code></p>
   <p>O prop isVisible controla a visibilidade do modal e o prop height define a altura do modal. É possível ajustar a altura do modal conforme a necessidade do seu projeto.
 
-Observação: O componente CleanModal também pode ser personalizado usando a prop children para incluir qualquer conteúdo que desejar.
+Observação: O componente CleanModal também pode ser personalizado usando a prop children para incluir qualquer conteúdo que desejar.</p>
 
-Aqui está um exemplo completo de como usar o Modal Clean em seu projeto React Native:</p>
-  <p><code>
-    import React, { useState } from 'react';
+<h4>Aqui está um exemplo completo de como usar o Modal Clean em seu projeto React Native:</h4>
+  <code>
+import React, { useState } from 'react';
 import { Button, Text } from 'react-native';
 import { CleanModal } from './components/CleanModal';
 
@@ -57,6 +57,8 @@ const App = () => {
 
 export default App;
 
-    </code></p>
+
+</code>
+  
 </body>
 </html>

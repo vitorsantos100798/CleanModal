@@ -19,6 +19,44 @@
   setModalVisible(!modalVisible);
 };
 </code></p>
-  
+  <p>4. Em seu componente pai, adicione um botão que irá disparar a função toggleModal.</p>
+  <p><code>
+</code><Button title="Abrir Modal" onPress={toggleModal}></Button></p>
+  <p>5. Dentro do componente pai, crie o componente CleanModal e passe as props apropriadas.</p>
+   <p><code><CleanModal isVisible={modalVisible} height={300}>
+  <Text>Conteúdo do Modal aqui</Text>
+</CleanModal>
+</code></p>
+  <p>O prop isVisible controla a visibilidade do modal e o prop height define a altura do modal. É possível ajustar a altura do modal conforme a necessidade do seu projeto.
+
+Observação: O componente CleanModal também pode ser personalizado usando a prop children para incluir qualquer conteúdo que desejar.
+
+Aqui está um exemplo completo de como usar o Modal Clean em seu projeto React Native:</p>
+  <p><code>
+    import React, { useState } from 'react';
+import { Button, Text } from 'react-native';
+import { CleanModal } from './components/CleanModal';
+
+const App = () => {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  const toggleModal = () => {
+    setModalVisible(!modalVisible);
+  };
+
+  return (
+    <>
+      <Button title="Abrir Modal" onPress={toggleModal}></Button>
+      <CleanModal isVisible={modalVisible} height={300}>
+        <Text>Conteúdo do Modal aqui</Text>
+        <Button title="Fechar" onPress={toggleModal}></Button>
+      </CleanModal>
+    </>
+  );
+};
+
+export default App;
+
+    </code></p>
 </body>
 </html>

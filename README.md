@@ -19,9 +19,10 @@
   setModalVisible(!modalVisible);
 };
 </code></p>
-  <p>4. Em seu componente pai, adicione um botão que irá disparar a função toggleModal.</p>
+  <p>4. Em seu componente pai, adicione um botão que irá disparar a função toggleModal.</p
   <p><code>
-</code><Button title="Abrir Modal" onPress={toggleModal}></Button></p>
+    <Button title="Abrir Modal" onPress={toggleModal}></Button>
+   </code></p>
   <p>5. Dentro do componente pai, crie o componente CleanModal e passe as props apropriadas.</p>
    <p><code><CleanModal isVisible={modalVisible} height={300}>
   <Text>Conteúdo do Modal aqui</Text>

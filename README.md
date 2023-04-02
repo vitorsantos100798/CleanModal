@@ -12,28 +12,28 @@
 <h4>Para usar o Modal Clean em seu projeto, siga as etapas abaixo:</h4>
   <p>1. Importe o componente para o seu arquivo React Native.</p>
   <p>2.Defina o estado do modal em seu componente pai.</p>
-  <p><code>const [modalVisible, setModalVisible] = useState(false);
-</code></p>
+  <p><strong>const [modalVisible, setModalVisible] = useState(false);
+</strong></p>
   <p>3. Crie uma função para alternar a visibilidade do modal.</p>
-  <p><code>const toggleModal = () => {
+  <p><strong>const toggleModal = () => {
   setModalVisible(!modalVisible);
 };
-</code></p>
+</strong></p>
   <p>4. Em seu componente pai, adicione um botão que irá disparar a função toggleModal.</p
-  <p><code>
+  <p><strong>
     <Button title="Abrir Modal" onPress={toggleModal}></Button>
-   </code></p>
+   </strong></p>
   <p>5. Dentro do componente pai, crie o componente CleanModal e passe as props apropriadas.</p>
-   <p><code><CleanModal isVisible={modalVisible} height={300}>
+   <p><strong><CleanModal isVisible={modalVisible} height={300}>
   <Text>Conteúdo do Modal aqui</Text>
 </CleanModal>
-</code></p>
+</strong></p>
   <p>O prop isVisible controla a visibilidade do modal e o prop height define a altura do modal. É possível ajustar a altura do modal conforme a necessidade do seu projeto.
 
 Observação: O componente CleanModal também pode ser personalizado usando a prop children para incluir qualquer conteúdo que desejar.</p>
 
 <h4>Aqui está um exemplo completo de como usar o Modal Clean em seu projeto React Native:</h4>
-  <code>
+   <strong><p>
 import React, { useState } from 'react';
 import { Button, Text } from 'react-native';
 import { CleanModal } from './components/CleanModal';
@@ -59,7 +59,7 @@ const App = () => {
 export default App;
 
 
-</code>
+  </strong></p>
   
 </body>
 </html>

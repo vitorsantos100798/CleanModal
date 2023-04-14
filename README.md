@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>Clean Modal React Native</h1>
+  <h1>⚛️ Clean Modal React Native</h1>
   <p>O CleanModal é um componente personalizado que pode ser usado para criar um modal personalizado em seu    aplicativo React Native. Ele permite que você ajuste a altura do modal e exiba qualquer conteúdo dentro dele.</p>
 <h4>Para usar o Modal Clean em seu projeto, siga as etapas abaixo:</h4>
   <p>1. Importe o componente para o seu arquivo React Native.</p>

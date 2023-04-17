@@ -32,8 +32,9 @@
 Observação: O componente CleanModal também pode ser personalizado usando a prop children para incluir qualquer conteúdo que desejar.</p>
 
 <p>6. Aqui está um exemplo completo de como usar o Modal Clean em seu projeto React Native:</p>
-   <strong><p>
-import React, { useState } from 'react';
+  <pre>
+<code>
+  import React, { useState } from 'react';
 import { Button, Text } from 'react-native';
 import { CleanModal } from './components/CleanModal';
 
@@ -56,9 +57,9 @@ const App = () => {
 };
 
 export default App;
+</code>
+</pre>
 
-
-  </strong></p>
   
 </body>
 </html>
